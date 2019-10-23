@@ -1,0 +1,194 @@
+body {
+  margin: 0 auto;
+  background-color: red;
+  text-align: center;
+}
+
+.cart-html {
+  background-color: white;
+}
+
+#cart-image {
+	width: 20%;
+	height: auto;
+}
+
+.add {
+  width: 100%;
+  background-color: #a8a8a8;
+  border-width: 0px;
+}
+
+.jumbotron {
+  background-image: url(https://i1.wp.com/arsenalfclatestnews.com/wp-content/uploads/2019/03/Arsenal-Players-Photos.jpg?w=980&ssl=1);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 0px;
+
+}
+
+.p1, .p2, .p3 {
+	display: none;
+}
+
+#logo {
+	height: auto;
+	width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+header {
+  height: 300px;
+  width: 100%;
+}
+
+h1 {
+  float: left;
+  margin: 0;
+}
+
+#cart-container {
+  float: right;
+  width: 15%;
+  position: relative;
+}
+
+#itemCount {
+  position: absolute;
+  display: none;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  overflow: auto;
+  width: 100%;
+  background: #444444;
+}
+
+nav ul li {
+  float: left;
+  padding: 5px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  color: #444444;
+  background: #cccccc;
+}
+
+nav ul li:hover a {
+  color: #444444;
+  text-decoration: none;
+
+}
+
+img {
+  width: 100%;
+}
+
+.item {
+  width: 31%;
+  float: left;
+  margin: 1%;
+  background-color: white;
+}
+
+.itemText p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.price-container {
+  margin-top: 20px;
+}
+
+#shoppingCart {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#cartItemsContainer {
+  width: 50%;
+  top: 150px;
+  padding: 40px;
+}
+
+#cartItemsContainer .itemDetails {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.removeItem {
+  margin-left: 40px;
+}
+
+#close-button {
+	width: 20px;
+}
+
+.item, .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 2px;
+}
+
+#error{
+color: red;
+font-weight: bold;
+}
+
+.card {
+	width: 20%;
+	display: inline-block;
+}
+
+#form2 {
+	display: none;
+}
+
+#car, #truck {
+	display: none;
+}
+
+.cards {
+  background-color: white;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}

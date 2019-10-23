@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="catalogue.css">
+<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/hif/8/82/Arsenal_FC.png">
+</head>
+<body class="cart-html">
+<div class="jumbotron"><img id="logo" src="https://upload.wikimedia.org/wikipedia/hif/8/82/Arsenal_FC.png">
+		  <header>
+		    <div id="cart-container">
+		      <div id="cart">
+		        <img id="cart-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtRykFfdCIN69tdsR5izwJGuRq_-5Is7d82n71DUZ497zZfT3" class="fa fa-shopping-cart fa-2x openCloseCart" aria-hidden="true">
+		        <button id="emptyCart">Empty Cart</button>
+		      </div>
+		      <span id="itemCount"></span>
+		    </div>
+		  </header></div>
+		  <nav>
+		  	<ul>
+		  		<a href="catalogue.html"><li>Catalogue</li></a>
+		  		<a href="cart.html"><li>Cart</li></a>
+		  		<a href="transport.html"><li>Transport</li></a>
+		  	</ul>
+		  </nav>
+		  <div id="shoppingCart">
+		    <div id="cartItemsContainer">
+		      <h2>Items in your cart</h2>
+		      <div id="cartItems"></div>
+		      <span id="cartTotal"></span>
+		  	</div>
+		  </div>
+
+
+
+		  <form name="couponField" action=""> 
+        <span id="error"></span>
+        Coupon code: 
+        <input type="coupon" id="coupon" name="coupon"> 
+        <input type="button" id="submit" value="Apply Coupon Code"> 
+    </form> 
+    <br>
+    <br>
+    <br>
+<script src="catalogue.js"></script>
+</body>
+</html>

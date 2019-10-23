@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="catalogue.css">
+<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/hif/8/82/Arsenal_FC.png">
+</head>
+<body>
+<div class="jumbotron"><img id="logo" src="https://upload.wikimedia.org/wikipedia/hif/8/82/Arsenal_FC.png">
+		  <header>
+		    <div id="cart-container">
+		      <div id="cart">
+		        <img id="cart-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtRykFfdCIN69tdsR5izwJGuRq_-5Is7d82n71DUZ497zZfT3" class="fa fa-shopping-cart fa-2x openCloseCart" aria-hidden="true">
+		        <button id="emptyCart">Empty Cart</button>
+		      </div>
+		      <span id="itemCount"></span>
+		    </div>
+		  </header></div>
+		  <nav>
+		  	<ul>
+		  		<a href="catalogue.html"><li>Catalogue</li></a>
+		  		<a href="cart.html"><li>Cart</li></a>
+		  		<a href="transport.html"><li>Transport</li></a>
+		  	</ul>
+		  </nav>
+<form id="form1">
+	<div class="card">
+	<img class="img-thumbnail" id="delivery1" src="https://image.flaticon.com/icons/png/128/86/86126.png">
+	</div>
+	<div class="card">
+	<img class="img-thumbnail" id="delivery2" src="https://thumb9.shutterstock.com/thumb_large/2539615/367112558/stock-vector-car-icon-367112558.jpg">
+	</div>
+</form><br><br>
+<h3 id="truck">Are you sure you want personal delivery</h3>
+<h3 id="car">Are you sure you want to come fetch it</h3>
+<form id="form2">
+	Enter your house number and street name: <br>
+	<input type="address" name="street" placeholder="Enter your house number and street name"><br><br>
+	Enter your surburb: <br>
+	<input type="address" name="surburb" placeholder="Enter your surburb"><br><br>
+	Enter your city/town <br>
+	<input type="address" name="city" placeholder="Enter your city/town"><br><br>
+	Enter your postal code: <br>
+	<input type="address" name="postalCode" placeholder="Enter your postal code"><br><br>
+	<input type="submit" value="Submit">
+</form>
+<script src="catalogue.js"></script>
+</body>
+</html>
