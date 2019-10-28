@@ -306,6 +306,10 @@ header {
     .colorlib-footer {
       padding: 5em 0; } }
 
+.colorlib-about {
+  background-color: white;
+}
+
 #colorlib-hero {
   width: 100%;
   clear: both;
@@ -623,7 +627,7 @@ header {
       font-weight: 500; }
     .about-info .wrap .loc {
       font-weight: 500;
-      color: #b3b3b3; }
+      color: grey; }
     .about-info .wrap .year {
       color: #000; }
 
