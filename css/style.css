@@ -24,6 +24,17 @@ body {
     height: 100%;
     width: 100%; }
 
+.button {
+  background-color: #66b2d9;
+  color: white;
+  border: 2px solid #66b2d9;
+    transition-duration: 100ms;
+}
+
+.button:hover {
+  border: 1px solid #66b2d9;
+}
+
 #colorlib-wrapper {
   height: 100%;
   width: 100%;
@@ -277,10 +288,6 @@ header {
         color: #29002b; }
         header .colorlib-navbar-brand .colorlib-logo.logo:after {
           background: #29002b; }
-
-.colorlib-case {
-  background-color: lightgrey;
-}
 
 .colorlib-about,
 .colorlib-skills,
@@ -558,7 +565,7 @@ header {
   border-radius: 30px; }
 
 .colorlib-skills {
-  background-color: white;
+  background-color: lightgrey;
 }
 
 .progress-bar {
@@ -1012,14 +1019,13 @@ article .desc .tag {
 .btn-primary {
   background: #66b2d9;
   color: #000;
-  border: 2px solid #66b2d9; }
+  display: inline-flex;}
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #66b2d9 !important;
     border-color: white !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #4d4d4d;
-    border: 1px solid #d9d9d9; }
+    color: #4d4d4d; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #ffdd00;
       color: #fff; }
